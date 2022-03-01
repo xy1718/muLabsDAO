@@ -14,7 +14,7 @@ Here's [how to install GIT](http://git-scm.com/book/en/v2/Getting-Started-Instal
 
 Tell git to download the crisp-dna source:
 
-    git clone https://github.com/crispab/crisp-dna.git
+    git clone https://github.com/xy1718/mulabsDAO.git
 	cd crisp-dna
 
 You should now have the whole thing, including the README.md file that you are reading right now!
