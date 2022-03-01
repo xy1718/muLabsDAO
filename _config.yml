@@ -1,0 +1,11 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+collections:
+  docs:
+    output: true
+company_name: "muLabsDAO"
+google_analytics_tracker_code: "UA-4901950-2"

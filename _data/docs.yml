@@ -1,0 +1,21 @@
+- title: muLabsDAO principles
+  docs:
+  - what-is-brain-protocol.html
+  - how-muLabsDAO-works.html
+  
+- title: Core structure and practices
+  docs:
+  - a-journey-to-neurofeedback.html
+  - our-visions.html
+  - proposals.html
+  - request-protocol.html
+  - decisions.html
+  - conflict-handling.html
+  - board-of-trust.html
+  
+
+- title: Supporting practices
+  docs:
+  - ownership-model.html
+  - communication.html
+  - industries-that-we-avoid.html

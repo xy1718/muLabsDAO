@@ -1,0 +1,514 @@
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print">
+    <link rel="shortcut icon" href="/images/poap.png" type="image/png" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Request protocol</title>
+  </head>
+    <body>  
+      
+      <header>
+        <div class="inner">
+			
+          <h1><a href="/">muLabsDAO</a></h1>
+          <h2>Decentralized Autonomous Organization developing the brain protocol</h2>
+          <a href="https://github.com/xy1718/muLabsDAO" class="button"><small>View project on</small> GitHub</a>
+        </div>
+		
+      </header>
+
+
+      <div id="content-wrapper">
+        <div class="inner clearfix">
+          <section id="main-content">
+          
+	        <h1 id="the-request-protocol">The Request Protocol</h1>
+
+<p>The Request protocol is a lightweight, decentralized issues routing protocol. It is designed to be the simplest possible way to handle requests or <a href="proposals.html">proposals</a> that are shared by a distributed group of people. We use it mostly to handle incoming requests.</p>
+
+<p>When a Request or a <a href="proposals.html">Proposal</a> comes in it is warm, juicy and soft. If it sits around for a day it will get cold. If it sits around several days it will become dry and hard. You can warm up an old Request in the microwave oven as long as it hasn’t become too dry.</p>
+
+<p>So, a Request and <a href="proposals.html">Proposal</a> should be eaten fairly quickly or thrown away. No use stuffing it in a box. If you can’t eat it yourself, offer it to someone else - before it gets cold, dry and hard!</p>
+
+<h2 id="how-the-request-protocol-works">How the request protocol works</h2>
+
+<p>When a Request is born:</p>
+
+<p><strong>A Request always has an owner</strong> - the person who received the Request or <a href="proposals.html">Proposal</a>. Or more specifically, the person responsible for the communication channel through which the Request appeared.</p>
+
+<p><strong>When you have a Request, you are responsible for taking care of it before it gets too dry!</strong> Preferably within 1 working day, definitely within 2.</p>
+
+<p>You have 3 options when is an simple issue or request:</p>
+
+<ul>
+  <li><strong>Eat it yourself.</strong> The Request is now consumed, i.e. it has found a home and will not be routed anywhere.</li>
+  <li><strong>Give it to somebody else.</strong>  You can’t push the Request to someone, you can only offer it. The receiver has to pull the Request from you.</li>
+  <li><strong>Throw it away.</strong> when I don’t need to know or care if that happens :o)</li>
+</ul>
+
+<p>The one thing you should NOT do is just let the Request sit and dry. Better to explicitly throw it away in that case (i.e. tell the sender that we can’t help).</p>
+
+<p>So initially a Requests appears through a “push” protocol, i.e. the initial recipient gets the Request whether he wants to or not. After that, however, everything is “pull”-based.</p>
+
+<p>Remember that the <a href="proposals.html">Proposals</a> must be shared always with everybody in a most structure way!</p>
+
+<h2 id="summary-of-the-rules">Summary of the rules</h2>
+
+<ul>
+  <li><strong>As receiver of a Request you are responsible</strong> until it is eaten by you, taken by someone else, or thrown away. If several people are interested, sync with them.</li>
+  <li><strong>A Request should not get more than 1-2 days old</strong> without being eaten by somebody, thrown away, or reheated (by talking to the customer/sender).</li>
+  <li><strong>You can’t push a Request onto someone else, they have to pull</strong>. The Request is yours until someone else explicitly takes it (for example by saying “I’ll take the Request”). You can of course recommend (or even try to convince) someone else to take it from you. This goes both ways - if someone offers you a Request, you don’t have to respond if you aren’t interested.</li>
+  <li>When in doubt:
+    <ul>
+      <li>Broadcast an email to everybody who might be interested or involved in this Request).</li>
+      <li>or send the Request to “upwards” or to a central person such the board.</li>
+    </ul>
+  </li>
+  <li><strong>When broadcasting to find interested Request-takers, give your colleagues one day</strong> to indicate interest in the Request. Don’t just let the first one that answers have the Request. There might be more interested. Letting the first one that answers having the Request leads to race conditions and might cause tension between colleagues.</li>
+</ul>
+
+<p>We don’t always succeed in following these rules, especially the 1-2 day age limit. But we really try our best, and we’re at least aware of when we fail.</p>
+
+<h2 id="why-it-could-works">Why it could works</h2>
+
+<ul>
+  <li><strong>Simple</strong>, anybody can learn it in 5 minutes.</li>
+  <li><strong>Can be extended</strong> as needed. New rules can be added, tool support can be added. But don’t. Keep it simple and add stuff only if you really, really need it.</li>
+  <li><strong>Doesn’t require any specific artifacts</strong> or documents that need to be maintained (unless you add that layer yourself…).</li>
+  <li><strong>Decentralized</strong> - uses “wisdom of the crowds” to ensure that Requests reach the right destination in the shortest possible time with the least possible effort. People  can focus on important stuff and not become a bottleneck for all kinds of trivial requests.</li>
+  <li><strong>Customer focused</strong> - customers normally get a response within a reasonable time.</li>
+  <li>It <strong>promotes trust and collaboration</strong>, and avoids bottlenecks and command &amp; control</li>
+  <li>It is <strong>Lean</strong> - we minimize work in progress and maximize flow by ensuring that Requests are handled quickly and don’t pile up in queues. We minimize waste and stress in the system by discarding sour Requests quickly.</li>
+  <li>We <strong>still have the option to centralize &amp; escalate</strong> on a case-by-case basis. If someone bumps into a Request that needs to be escalated to some central authority then that can be done immediately.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<h3 id="does-this-work-for-all-types-of-requests">Does this work for all types of requests?</h3>
+
+<p>We don’t know. But it has worked well enough so far, and we haven’t come up with any kind of request where it wouldn’t work.</p>
+
+<h3 id="what-if-several-people-want-the-same-request">What if several people want the same Request?</h3>
+
+<p>If several people are interested in the same Request, they talk to each other and sort it out.</p>
+
+<p>Strictly speaking, the first person to take the Request has it, so in theory we have a race condition. In practice, however, when a potential conflict arises the involved people talk to each other (by phone or email) and decide on who should take the Request, based on who can serve the client best, who needs the Request most, and other relevant factors.</p>
+
+<p>The <a href="conflict-handling.html">conflict handling process</a> should help solve the edge cases.</p>
+
+<h3 id="what-if-it-is-a-critical-request-shouldnt-some-central-authority-handle-it">What if it is a critical request? Shouldn’t some central authority handle it?</h3>
+
+<p>The closest thing we have to a central authority is the <a href="board-of-trust.html">board of trust</a>. If one of them received the request then, well, they already have it.</p>
+
+<p>But don’t forget - the Request is still yours until someone else explicitly takes it from you!</p>
+
+<h3 id="what-about-traceability">What about traceability?</h3>
+
+<p>Traceability can be useful, for example we could write the Requests into a backlog or CRM system or something. That doesn’t conflict with the Request protocol, we could just add that on top. But traceability has a cost. The overhead cost of each Request increases, due to writing &amp; reading &amp; updating information in a tool. So we don’t really prioritize traceability.</p>
+
+<h3 id="wont-a-request-get-dry-if-it-gets-sent-around-between-people-for-too-long">Won’t a Request get dry if it gets sent around between people for too long?</h3>
+
+<p>Yes. So keep that in mind when you pass around Requests. Check the age, all emails have dates. Use common sense. If it is an urgent Request, it is getting old and you want to send to someone else, then call instead of sending email.</p>
+
+<h3 id="how-do-we-avoid-requests-falling-through-the-cracks">How do we avoid Requests falling through the cracks</h3>
+
+<p>Be very clear in your communication. Short, clear phrases like:</p>
+
+<ul>
+  <li>“Who will take this Request?”</li>
+  <li>“I’m taking the Request!”</li>
+  <li>“I will throw this Request away if nobody takes it by Tuesday”</li>
+</ul>
+
+<p>We use the subject-line REQUEST for all Request-routing emails (see <a href="email-conventions.html">email conventions</a>).</p>
+
+<h3 id="what-would-be-alternatives-to-the-request-protocol">What would be alternatives to the Request protocol?</h3>
+
+<p>Let’s say something important comes in, such as a request from a new potential client. Some alternatives to the Request protocol would be:</p>
+
+<ul>
+  <li><strong>Alternative A: I can do whatever I want.</strong> Perfectly fine to let the email sit unanswered in my inbox, or throw away the email without answering the client.
+    <ul>
+      <li><strong>Result:</strong> Lost business, disappointed customers, disappointed colleagues. My friend might have wanted that client, and I dumped it. Next time he’ll dump a client that I would have wanted.</li>
+    </ul>
+  </li>
+  <li><strong>Alternative B: All client requests have to be sent to person X</strong>
+    <ul>
+      <li><strong>Result:</strong>  becomes a bottleneck. And we miss the chance to utilize the collective intellect of the rest of the team.</li>
+    </ul>
+  </li>
+  <li><strong>Alternative C: I have to be responsible for this request until it is completely resolved, I can’t hand over to someone else.</strong>
+    <ul>
+      <li><strong>Result:</strong> Stress and ineffectiveness, since I can’t detach from a request that doesn’t interest me. If I get a request that is more suitable for someone else, it is more effective for all parties if I connect the client with that person and eject myself from the loop.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Nah, we like the Request protocol better. It introduces a minimum amount of discipline and rules without becoming a burden.</p>
+
+<h3 id="what-are-the-potential-disadvantages-of-the-request-protocol">What are the potential disadvantages of the Request protocol?</h3>
+
+<ul>
+  <li>Requires discipline and trust from everyone involved. But we kinda want that anyway…</li>
+  <li>No built-in traceability and visibility. We can’t easily see which active Requests are in our system unless we add a visibility layer.</li>
+</ul>
+
+          <div class="section-nav">
+  <div class="left align-right">
+    
+      <a href="/docs/proposals.html" accesskey="b" class="prev">&laquo; Back</a>
+    
+  </div>
+  <div class="right align-left">
+    
+      <a href="/docs/decisions.html" accesskey="n" class="next">Next &raquo;</a>
+    
+  </div>
+  <div class="clear"></div>
+</div>
+
+	  
+  
+          </section>
+
+          
+          <aside id="sidebar">
+            <div>
+  <aside>
+    <h4><a href=".">Home</a></h4>
+    
+    <h4>muLabsDAO principles</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/what-is-brain-protocol.html">Brain Protocol</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/how-muLabsDAO-works.html">How muLabsDAO works</a></li>
+       
+
+
+</ul>
+    
+    <h4>Core structure and practices</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/a-journey-to-neurofeedback.html">Journey to Neurofeedback</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/our-visions.html">Our visions</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/proposals.html">Proposals</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class="current"><a href="http://localhost:4000/docs/request-protocol.html">Request protocol</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/decisions.html">Decision making</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/conflict-handling.html">Conflict handling</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/board-of-trust.html">Board of trust</a></li>
+       
+
+
+</ul>
+    
+    <h4>Supporting practices</h4>
+    
+
+<ul>
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/ownership-model.html">Ownership model</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/communication.html">Communication</a></li>
+       
+
+
+  
+
+  
+
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+      <li class=""><a href="http://localhost:4000/docs/industries-that-we-avoid.html">Industries that we avoid</a></li>
+       
+
+
+</ul>
+    
+  </aside>
+</div>
+
+
+    
+            <p class="repo-owner"><a href="https://github.com/xy1718/muLabsDAO"></a> is maintained by <a href="https://github.com/xy1718/muLabsDAO">muLabsDAO</a>.</p>
+
+            <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Layout based on a theme from <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+          </aside>
+          
+        </div>
+      </div>
+
+
+      <footer>
+      </footer>
+
+              <script type="text/javascript">
+              var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+              document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+            </script>
+            <script type="text/javascript">
+              try {
+                var pageTracker = _gat._getTracker("UA-4901950-2");
+              pageTracker._trackPageview();
+              } catch(err) {}
+            </script>
+
+    </body>
