@@ -12,7 +12,7 @@ Here's [how to install GIT](http://git-scm.com/book/en/v2/Getting-Started-Instal
 
 ## 2. Clone the repo
 
-Tell git to download the crisp-dna source:
+Tell git to download the muLabs dna source:
 
     git clone https://github.com/xy1718/muLabsDAO.git
 	cd muLabsDAO
@@ -51,7 +51,7 @@ Tell Jekyll to generate the site and serve it up:
 
 Or if you are lazy you can use the run script (which just does jekyll serve)
 
-That's it, your local copy of the Crisp DNA site should be up and running on
+That's it, your local copy of the muLasbDAO DNA site should be up and running on
 [http://localhost:4000](http://localhost:4000)
 
 Every time you edit a source doc (under _docs) it will update the site automatically.
