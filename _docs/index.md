@@ -39,7 +39,7 @@ Some facts
 ----------
 
 -   We rely on self-organization and transparency. Almost everything is bottom-up, and [anyone can drive any decision](decisions.html).
--   muLabsDAO doesn't want to earn money from it's colaborators. It is in practice like a ["nonprofit organization"](https://en.wikipedia.org/wiki/Nonprofit_organization) (although not formally so). People [keep most of what they earn](economic-model.html).
+-   muLabsDAO doesn't want to earn money from it's colaborators. It is in practice like a ["nonprofit organization"](https://en.wikipedia.org/wiki/Nonprofit_organization) (although not formally so). 
 -   Our [ownership model](ownership-model.html) is designed to keep our stock financially worthless. There is no incentive to "cash in".
 
 Why open-source the muLabsDAO DNA?
