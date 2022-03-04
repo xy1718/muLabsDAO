@@ -9,9 +9,11 @@ Visions
 
 muLabsDAO itself is just a platform and doesn't have a Vision (with a Big V). However, many of the *people* at muLabsDAO do have a vision. Here are the most widely shared visions:
 
+**Vision 0:  "...a future where brain data is decentralized and democratized for everyone to participate and get rewarded for it by letting the users create, own and monetize their bio-data through the use of our framework and blockchain technology."**
+
 **Vision 1: "Build amazings neurofeedback sessions for everybody"**
 
-**Vision 2: "Develop software and hardware solutions to assurance the ownership of the biodata of everybody"**
+**Vision 2: "Develop software and hardware solutions to assurance the ownership of the biodata to everybody"**
 
 **Vision 3: "Use exponential technologies to improve the intelligence, logenvity and hapiness for everybody"**
 

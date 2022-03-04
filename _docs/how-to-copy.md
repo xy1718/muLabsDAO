@@ -5,12 +5,12 @@ next_section:
 ---
 
 How to clone the muLabsDAO DNA
-==========================
+==============================
 
 The muLabsDAO DNA is [open-source on github](https://github.com/xy1718/muLabsDAO), so you are welcome to copy it and create something similar.
 
 Why clone the muLabsDAO DNA?
-------------------------
+----------------------------
 
 Perhaps you are an independent consultant and want to start some kind of collaboration with others. You don't want to run it as a traditional consulting company, and yet you don't want to invent a model from scratch. In that case you can start from our model and modify it to fit your needs.
 
@@ -22,12 +22,12 @@ What's the licensing model?
 The muLabsDAO DNA is licensed under [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/). This means you are welcome to edit the text anyway you wish, even for commercial purposes, as long as you attribute the original text to us, and keep the license, so that others can fork off of your ingenious changes. But go read the license, it is well worth the effort!
 
 Can I call my company muLabsDAO?
-----------------------------
+--------------------------------
 
 Please don't. We can't legally stop you from calling your organization muLabsDAO, but we prefer that you use a different name. Otherwise people may think there is some kind of relationship between our companies. If you pick a different name, our brands can evolve independently.
 
 How do I create my own copy of the muLabsDAO DNA site?
---------------------------------------------------
+------------------------------------------------------
 
 Simplest way is to [fork](https://help.github.com/articles/fork-a-repo/) the [muLabsDAO-dna repo](https://github.com/xy1718/muLabsDAO) on github. Something like this:
 
@@ -40,7 +40,7 @@ Simplest way is to [fork](https://help.github.com/articles/fork-a-repo/) the [mu
 Once you've cloned the dna, it's no longer the muLabsDAO model, it's your model! muLabsDAO is just your ancestral (and slightly weird) uncle. Change stuff as you like. Rename the company. Remove pages that aren't relevant. Change the content. Replace the pictures. Go wild.
 
 But wait, there's A LOT of content here!
----------------------------------------
+----------------------------------------
 
 No worries, once you've forked it you can remove the stuff you don't need. The gist of our model is summarized in [What is the brain protocol](what-is-brain-protocol.html) and [How muLabsDAO works](how-muLabsDAO-works.html), so you might decide to just keep those two (but with your company name).
 

@@ -43,13 +43,11 @@ How do we run the DAO?
 How do we finance muLabsDAO?
 ---------------------------
 
-We are trying to raise funds with our BioNFT collections, promoting auctions in singular events like [A Journey to a neurofeedback](a-journey-to-neurofeedback.html).
+Scientific research has long been a top-down process, with decisions made by the people with the finances. These people normally represent governments or large pharmaceuticals, who usually base their investments on which project has the highest potential to succeed: a risk-averse approach. DeSci organizations can utilize tools such as NFTs and cryptocurrencies to community-fund research, for example, via Defi protocols or by monetizing IP NFTs, essentially putting the power of decision-making in the hands of the DAO and its participants.
+
+We are trying to raise funds with our BioNFTs collections, promoting auctions in singular events like [A Journey to a neurofeedback](a-journey-to-neurofeedback.html).
 
 What do we do with the money?
 -----------------------------
 
-Continue with the research and development of the [Brain Protocol](what-is-brain-protocol.html). Basically according our [proposals](proposals.html) we try to take the bests [decisions](decisions.html).
-
-
-
-
+To continue with the research and development of the [Brain Protocol](what-is-brain-protocol.html). Basically according our [proposals](proposals.html) we try to take the bests [decisions](decisions.html).

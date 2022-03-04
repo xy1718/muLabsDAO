@@ -26,7 +26,7 @@ What does ownership cost?
 
 We strive to minimize the financial value of the DAO. Yes, you heard it right. I know, that's like the opposite of what other organizations do. But remember, the purpose of muLabsDAO is not to enrich it's owners. The purpose is to [help people be more happy, intelligent and healthy](what-is-muLabsDAO.html).
 
-> We've all seen companies that work like pyramid schemes - where old-timers are like fat cats parasiting from the hard work of newcomers. That's exactly what we **don't** want to be.</rant>
+> We've all seen companies that work like pyramid schemes - where old-timers are like fat cats parasiting from the hard work of newcomers. That's exactly what we **don't** want to be.
 
 When you become an owner (which is entirely optional), you buy stock at that low price. You will have the exact same amount of stock as the other owners. And if/when you leave muLabsDAO, you must sell your stock back at basically the same price.
 

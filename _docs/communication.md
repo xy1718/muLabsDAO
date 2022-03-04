@@ -9,10 +9,10 @@ Communication
 
 Our **main internal communication channels** are:
 
--   [muLabsDAO Discord](https://discord.gg/SvFVXTQsy4).
--   Whatsap, Telegram ...
--   [Board of trust meetings](board.html) scrum every week.
-
+-   [Discord](https://discord.gg/SvFVXTQsy4).
+-   [Telegram](https://t.me/+eHoS0wjxc_QwM2Y0).
+-   [Board of trust - meetings](board-of-trust.html) scrum every week.
+-   Whatsap.
 
 Where we **store info**:
 
@@ -20,7 +20,7 @@ Where we **store info**:
 
 How we **communicate with the outside world**:
 
--   muArts - [https://muarts.tech/](https://muarts.tech/)
+-   muArts site - [https://muarts.tech/](https://muarts.tech/)
 -   Twitter - our twitter handle is [@muLabsDAO](https://twitter.com/muLabsDAO)
--   [Facebook](https://www.facebook.com/muartstech)
--   ... but the biggest channel of communication is of course the personal and informal channels - tweeting, blogging, and talking to friends and customers. Together we have a huge network!
+-   [Facebook muArts](https://www.facebook.com/muartstech)
+-   ... but the biggest channel of communication is of course the personal and informal channels - tweeting, blogging, and talking with everybody. Together we have a huge network!
