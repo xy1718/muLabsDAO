@@ -12,7 +12,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>muLabsDAO DNA - tech setup for the site</title>
+    <title>Projects</title>
   </head>
     <body>  
       
@@ -31,78 +31,19 @@
         <div class="inner clearfix">
           <section id="main-content">
           
-	        <h1 id="mulabsdao-dna---tech-setup-for-the-site">muLabsDAO DNA - tech setup for the site</h1>
+	        <h1 id="projects">Projects</h1>
 
-<p>muLabsDAO DNA is a web site that describes how muLasbDAO works and why. The source lives on github.</p>
-
-<p>Below are instructions for how to set up a local development environment. Useful for when you want to make many changes and test locally before pushing to github.</p>
-
-<h2 id="1-install-git">1. Install GIT</h2>
-
-<p>Here’s <a href="http://git-scm.com/book/en/v2/Getting-Started-Installing-Git">how to install GIT</a>.</p>
-
-<h2 id="2-clone-the-repo">2. Clone the repo</h2>
-
-<p>Tell git to download the muLabs dna source:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/xy1718/muLabsDAO.git
-cd muLabsDAO
-</code></pre></div></div>
-
-<p>You should now have the whole thing, including the README.md file that you are reading right now!</p>
-
-<p>The web site source files are under <code class="language-plaintext highlighter-rouge">_docs</code>, have a look! They are written using <a href="https://guides.github.com/features/mastering-markdown/">markdown</a> (a simpler format than html). When you push to github, it will automatically convert the pages to static html and build the site.</p>
-
-<h2 id="3-install-jekyll-and-related-tools">3. Install Jekyll and related tools</h2>
-
-<p>To test the site locally, you need to install jekyll (the tool that github uses to generate sites), which in turn relies on some Ruby stuff. But you can do all easily via Ruby bundler, like this:</p>
-
-<p>First install Ruby if you don’t already have it, for example via <a href="http://brew.sh">homebrew</a>.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew install ruby
-</code></pre></div></div>
-
-<p>Then install the Ruby Bundler gem, if you don’t already have it.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install bundler
-</code></pre></div></div>
-
-<p>Next, tell the bundler to install all the gems needed (jekyll, github-pages, etc). They are listed in Gemfile in case you are curious.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle install	
-</code></pre></div></div>
-
-<p>If you are getting error messages, you may have old versions of some Gems installed. Try updating to the latest using:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update	
-</code></pre></div></div>
-
-<p>Congrats! You got the stuff you need. You should now be ready to….</p>
-
-<h2 id="4-run-the-site-locally">4. Run the site locally!</h2>
-
-<p>Tell Jekyll to generate the site and serve it up:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
-</code></pre></div></div>
-
-<p>Or if you are lazy you can use the run script (which just does jekyll serve)</p>
-
-<p>That’s it, your local copy of the muLasbDAO DNA site should be up and running on
-<a href="http://localhost:4000">http://localhost:4000</a></p>
-
-<p>Every time you edit a source doc (under _docs) it will update the site automatically.</p>
-
+<p>The core operation of our DAO is the development and execution of projects that will be measured using the Result Center logic, considering that affect directly the financial operation of the organization and is linked with the <a href="request-protocol.html">Requests</a>  and <a href="proposals.html">Proposals</a></p>
 
           <div class="section-nav">
   <div class="left align-right">
     
-      <span class="prev disabled">&laquo; Back</span>
+      <a href="/docs/our-visions.html" accesskey="b" class="prev">&laquo; Back</a>
     
   </div>
   <div class="right align-left">
     
-      <span class="next disabled">Next &raquo;</span>
+      <a href="/docs/request-protocol.html" accesskey="n" class="next">Next &raquo;</a>
     
   </div>
   <div class="clear"></div>
@@ -370,7 +311,7 @@ cd muLabsDAO
     
   
     
-      <li class=""><a href="http://localhost:4000/docs/projects.html">Projects</a></li>
+      <li class="current"><a href="http://localhost:4000/docs/projects.html">Projects</a></li>
        
 
 

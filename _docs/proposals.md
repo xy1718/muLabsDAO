@@ -9,7 +9,7 @@ Proposals
 
 How do bottom-up initiatives get funded? How do you get funds to do something without a budget process?
 
-Answer: If you want something that needs funding, form a Proposal. That is, find others that want the same thing and are willing to "make the effort" for it with their own resources. 
+Answer: If you want something that needs funding, form a Proposal. That is, find others that want the same thing and are willing to "make the effort" for it with their own resources until we launch a [project](project.html). 
 
 What is a Proposal?
 -------------------

@@ -32,7 +32,16 @@ Positive feedback loops
 4. Taking time to explore and learn new things together makes us more motivated and more competent!
 5. GOTO 1
 
-How do we run the DAO?
+DAO: Examples and Impact
+------------------------
+
+The first DAO began with Ethereum in 2016 and lasted only a few months before it was hacked due to an exploited vulnerability in the source code. While
+the original DAO was short-lived, many other DAOs have proliferated in the years since. The earliest DAOs were treasury management systems, designed to allow token holders to determine the direction of a project, new features, engineering roadmap, and business strategy. Newer DAOs include freelancer guilds where remote workers can pool their talents
+to find clients, investment DAOs where members can comanage a portfolio of assets, and media DAOs that have unique incentives to encourage engagement and monetize content. Uniswap, a popular decentralized exchange, formed a DAO when it distributed governance tokens (UNI) to every address that had used the platform before Sept. 1, 2020. Friends With Benefits is a social DAO where token holders can buy season passes for access to exclusive events and content.
+
+Think of DAOs as co-ops for the web. DAOs facilitate the collective ownership and creation of value. While still in their infancy, DAOs offer promising approaches to classic coordination problems such as managing resources and aligning incentives.
+
+How do we run our DAO?
 ----------------------
 
 -   **Lean & Agile** - our approach is based on lean and [agile](https://en.wikipedia.org/wiki/Agile_software_development) principles.

@@ -24,11 +24,11 @@ You don’t need a well-defined decision process in order to make decisions. If 
 Instead, we follow these principles/guidelines:
 
 -   **The person driving an issue or [proposal](proposals.html). owns the decision process.**
--   **A decision is only a decision if there is a “puller” who follows up on the execution.** (we use the term "driver" and "puller" interchangeably)
+-   **A decision is only a decision if there is a “puller” who follows up on the execution.** (we can use the term "driver")
 -   **Important decisions should be documented in and emailed to everyone**
--   Some decisions lead to funded “projects”, the people involved in something like that form a Proposal. To get funding, there needs to be two “pullers” throughout the whole project. 
+-   Some decisions lead to funded [projects](projects.html), when the people involved vote and the [proposal](proposals.html) win. To get funding, there needs to be almost two (x2) “pullers” throughout the whole project. 
 
-**Example:** If I want muLabsDAO to collaborate with company X, then I’m the one driving that question and I pick the decision process.
+**Example:** If I want muLabsDAO to collaborate with industry/company/project X, then I’m the one driving that question Y and I pick the decision process.
 
 How do I pick a decision process?
 ---------------------------------
